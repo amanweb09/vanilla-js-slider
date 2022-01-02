@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS Slider</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="slide-container">
+            <div class="slides">
+                <img src="./images/s-1.jpg" alt="">
+            </div>
+            <div class="slides">
+                <img src="./images/s-2.jpg" alt="">
+            </div>
+            <div class="slides">
+                <img src="./images/s-3.jpg" alt="">
+            </div>
+            <div class="slides">
+                <img src="./images/s-4.jpg" alt="">
+            </div>
+        </div>
+        <div class="dots">
+            <div id="1" class="dot" onclick="changeSlide(this.id)"></div>
+            <div id="2" class="dot" onclick="changeSlide(this.id)"></div>
+            <div id="3" class="dot" onclick="changeSlide(this.id)"></div>
+            <div id="4" class="dot" onclick="changeSlide(this.id)"></div>
+        </div>
+
+        <div class="arrow prev">&#8617;</div>
+        <div class="arrow next">&#8618;</div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
